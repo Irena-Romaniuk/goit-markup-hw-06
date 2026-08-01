@@ -1,0 +1,129 @@
+.footer.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #2e2f42;
+}
+
+.footer .container {
+  display: flex;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footer-left-block {
+  margin-right: 120px;
+}
+
+.footer-link {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.logo {
+}
+.logo-web {
+  color: #4d5ae5;
+}
+.footer-text {
+  color: #f4f4fd;
+  width: 264px;
+}
+.footer.logo {
+  font-weight: 700;
+  font-size: 18px;
+
+  /* line-height: 24px; */
+  line-height: 1.33333;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.footer p {
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.footer-social-list {
+  display: flex;
+  gap: 16px;
+}
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: #f4f4fd;
+  background-color: #4d5ae5;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
+}
+
+.footer-form-subscribe {
+  margin-left: auto;
+}
+.footer-subscribe {
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.footer-form {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.footer-form-email::placeholder {
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: 0.04em;
+}
+
+.footer-form-email {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  width: 264px;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border-color;
+}
+
+.footer-form-email:focus {
+  border-color: #31d0aa;
+}
+
+.footer-btn {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  max-width: 165px;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
+}
+
+.footer-btn:hover,
+.footer-btn:focus {
+  background-color: #31d0aa;
+}
+.send-icon {
+}
