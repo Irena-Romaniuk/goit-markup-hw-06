@@ -75,6 +75,27 @@ img {
   }
 }
 
+.container {
+  width: 320px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+/* Tablet screen */
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+/* Desktop screen */
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;
+    padding: 0 15px;
+  }
+}
+
 .sr-only {
   position: absolute;
   white-space: nowrap;
@@ -86,4 +107,8 @@ img {
   clip: rect(0 0 0 0);
   clip-path: inset(100%);
   margin: -1px;
+}
+
+.hide {
+  display: none;
 }
