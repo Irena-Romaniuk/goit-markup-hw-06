@@ -49,17 +49,30 @@ ol {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
+/*перенесено в окремий css-файл
 .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-}
+} */
 
-.section {
+/* .section {
   padding-top: 120px;
   padding-bottom: 120px;
+} */
+
+.section {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+@media only screen and (min-width: 1158px) {
+  .section {
+    padding: 120px 0;
+  }
 }
 
 .sr-only {
