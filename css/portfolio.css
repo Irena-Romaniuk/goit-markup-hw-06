@@ -19,6 +19,7 @@
   display: flex;
   flex-direction: column;
   gap: 48px;
+  margin-top: 72px;
   /* gap: 24px;
   row-gap: 48px;
   flex-wrap: wrap;
@@ -46,7 +47,6 @@
     gap: 24px;
     row-gap: 48px;
     flex-wrap: wrap;
-    margin-top: 72px;
   }
 }
 
